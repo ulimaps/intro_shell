@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introducción a la Línea de Comandos</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>				
+					<h3>La Línea de Comandos & OpenDronemap, una poderosa combinación</h3>
+					<h4>Una introducción al uso de la Línea de comandos</h4>
+					<p>
+						<small>Por Ulises Ibarra </small>
+					</p>
+				</section>
+					
+				<section> 
+					<h2>Qué es la línea de comandos</h2>
+						<ul>
+						<li>Es un medio para tener un díalogo entre entre usuario y sistema</li>
+						<li>Un programa que nos ayuda a comunicarnos con la computadora</li>
+						</ul>
+				
+				</section>
+				
+				<section> 
+					<h2>¿Cuál computadora, cuál sistema?</h2>
+						<p>Esto es algo que debemos dejar claro: </p>
+						<p>¿Con quién nos comunicamos, con la máquina, computadora o sistema?</p>
+										
+				</section>
+				
+				<!-- Inicia sección con diapositivas verticales sobre UNIX y Linux -->
+			<section> 
+
+				<section>
+					<h2>¿Qué es un sistema operativo?</h2>
+						<p>Es el conjuto de programas que, ejecutándose en modo privilegiado respecto a otros programas, permite:</p>
+						<ul>
+						<li>Gestionar los recursos de hardware</li>
+						<li>Llevar acabo tareas de comunicación y seguridad</li>
+						<li>Proveer servicios a los programas de aplicación</li>
+						</ul>						
+				</section>
+				
+				<section>
+				<h3>¿Qué es UNIX?</h3>
+				<p>Según la definición de Wikipedia, <b>Unix</b> es un sistema operativo desarrollado en 1969 los laboratorios Bell de AT&T, que es:</p>
+				<ul>
+					<li>Portable (puede ser instalado y usado en máquinas con distintas características)</li>
+					<li>Multitarea (ejecutar más de un proceso al mismo tiempo)</li>
+					<li>Multiusuario (usarse por más de un usuario al mismo tiempo)</li>
+					<li>Ambiente de programación rico y productivo (mejorar redeacción)</li>
+				</ul>
+				</section>
+				
+				<section>
+				<h3>¿Filosofía UNIX?</h3>				
+				<ul>
+					<li>UNIX fue desarrollado por programadores para programadores</li>
+					<li>UNIX asume que uno sabe lo que hace</li>
+					<li>UNIX ve todo como un archivo</li>
+					<li>Si un comando no manda mensaje de error a la salida estándar, significa éste se ejecutó satisfactoriamente</li>
+				</ul>
+				</section>
+				
+				<section>
+				<h3>¿Qué es Linux?</h3>
+				
+				<p>Según la Wikipedia <a href="https://es.wikipedia.org/wiki/GNU/Linux" >Linux</a>, es la combinación de varios proyectos:</p>
+
+				<ul>
+				<li>GNU: sistema operativo tipo UNIX (una gran colección de programas informáticos).</li>
+				<li>Linux: núcleo o kernel (programa dedicado a gestionar el hardware).</li>
+				</ul>		
+				
+				<p>Así GNU/Linux es un sistema operativo que contiene tanto un kernel, compiladores, cientos de liberías, programas y entornos de escritorio.</p>		
+				</section>
+
+							
+			</section>
+			<!-- Termina sección con diapositivas verticales sobre UNIX y Linux -->
+			
+			<section>
+			<h2>¿Cómo le decimos a la computadora que haga una u otra cosa?</h2>
+			<ul>
+			<Li>Por medio de oraciones con cierta sintaxis, a través de la <b>Línea de Comandos</b>.</li>
+			<li>La <b>sintaxis</b> de las oraciones, nos indica cómo combiar sujeto, verbo y predicado.</li>
+			<li>Los verbos son los <b>comandos</b>, pequeños programas del sistema operativo.</li>
+				
+			</ul>		
+			</section>
+				
+			<section>
+			<h2>¿Qué es un comando?</h2>
+			<ul>
+			<Li>Pequeños programas incorporados en el sistema operativo.</li>
+			<li>Siempre están en capetas muy específicas (/bin, /usr/bin)La sintaxis de las oraciones, nos indica cómo combiar sujeto, verbo y predicado.</li>
+			<li>Los verbos o mandatos de la oración, son los <b>comandos</b>.</li>
+				
+			</ul>		
+			</section>
+			
+				
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
